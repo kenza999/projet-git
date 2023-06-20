@@ -1,0 +1,78 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #9933cc;
+    height: 40px;
+}
+header h1{
+    color: white;
+
+}
+.zone_1{
+    display: flex;
+    justify-content: space-around;
+margin-top: 20px;
+padding: 0 25px;
+}
+.navbar ul{
+    list-style-type; none;
+}
+.navbar li{
+background-color: #33b5e5;
+color: white;
+padding: 8px;
+margin-bottom: 7px;
+}
+.col-3{
+    width: 25%;
+}
+.center{
+    padding: 20px;
+}
+.center h2{
+    padding: 15px;
+}
+.aside{
+    background-color: #33b5e5;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    padding: 25px;
+
+}
+.zone_2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+img{
+    width: 100%;
+}
+[class*="col-"]{
+    /* on va selectionne tout les elements qui en un prefixe col- */
+    padding: 15px;
+}
+footer{
+    background-color: #33b5e5;
+    color: white;
+    height: 35pcx;
+    padding: 25px;
+}
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width:768px) {
+    .zone_1{
+        flex-wrap: wrap;
+    }
+    .col-3, .col-6{
+        width: 100%;
+    }
+    .img{
+        width: 50%;
+    }
+header{
+    background-color: red;
+}    
+}
